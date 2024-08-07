@@ -1,0 +1,7 @@
+RewriteEngine on
+  Options -Indexes
+  ErrorDocument 404 http://fondosdigitales.us.es/404.php
+
+  RewriteRule ^fondos/libros/?.+$ info.php [L]
+
+  
